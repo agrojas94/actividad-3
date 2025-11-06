@@ -1,0 +1,65 @@
+
+:root { --bg:#0f1115; --fg:#e8f0fe; --brand:#00ff99; }
+body { background:var(--bg); color:var(--fg); font-family: 'Segoe UI', system-ui, -apple-system, Roboto, sans-serif; }
+.navbar-brand { color: var(--brand)!important; font-weight:600; }
+.card { background:#161a22; border:1px solid #1f2633; }
+.btn-brand { background: var(--brand); border: none; color:#0b0f13; font-weight:600; }
+.game-card img { object-fit: cover; height: 180px; }
+a { color: var(--brand); }
+
+
+
+.card h4 {
+  color: var(--brand);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+label {
+  color: var(--fg);
+  font-weight: 500;
+}
+
+input.form-control,
+textarea.form-control {
+  background-color: #1c1f26;
+  color: var(--fg);
+  border: 1px solid #2a2f3a;
+}
+
+input.form-control::placeholder,
+textarea.form-control::placeholder {
+  color: #7e8a9a;
+}
+
+.btn-brand:hover {
+  background-color: #00cc77;
+  color: #0b0f13;
+}
+
+
+
+a, .nav-link {
+  color: var(--brand) !important;
+}
+
+a:hover, .nav-link:hover {
+  color: #00cc77 !important;
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(0, 255, 153, 0.05);
+}
+
+
+.btn-brand {
+  background: var(--brand);
+  color: #0b0f13 !important; 
+  font-weight: 600;
+  border: none;
+}
+
+.btn-brand:hover {
+  background: #00cc77;
+  color: #000 !important;
+}
